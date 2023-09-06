@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 4</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+    }
+    .Green {
+      float: left;
+      width: 70px;
+      height: 70px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: green;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .Green-text {
+      display: none;
+    }
+    .Green:hover {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    .Green:hover + .Green-text {
+      display: block;
+      color: Green;
+      font-weight: bolder;
+    }
+    .Blue {
+      float: left;
+      width: 70px;
+      height: 70px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: blue;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .Blue-text {
+      display: none;
+    }
+    .Blue:hover {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    .Blue:hover + .Blue-text {
+      display: block;
+      color: blue;
+      font-weight: bolder;
+    }
+    .Red {
+      float: left;
+      width: 70px;
+      height: 70px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: red;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .Red-text {
+      display: none;
+    }
+    .Red:hover {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    .Red:hover + .Red-text {
+      display: block;
+      color: Red;
+      font-weight: bolder;
+    }
+    .Gray {
+      float: left;
+      width: 70px;
+      height: 70px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background-color: grey;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .Gray-text {
+      display: none;
+    }
+    .Gray:hover {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    .Gray:hover + .Gray-text {
+      display: block;
+      color: Gray;
+      font-weight: bolder;
+    }
+    #Left {
+      padding-top: 25px;
+      width: 100px;
+    }
+    #Right {
+      padding-left: 200px;
+    }
+    .foo {
+      margin-bottom: 50px;
+    }
+    h1 {
+      font-size: 3rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    p {
+      font-size: larger;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  </style>
+  <body>
+    <div id="Left">
+      <div class="foo Green"></div>
+      <div class="Green-text">Green Colour</div>
+      <br />
+      <div class="foo Blue"></div>
+      <div class="Blue-text">Blue Colour</div>
+      <br />
+      <div class="foo Red"></div>
+      <div class="Red-text">Red Colour</div>
+      <br />
+      <div class="foo Gray"></div>
+      <div class="Gray-text">Gray Colour</div>
+      <br />
+    </div>
+    <div id="Right">
+      <h1>Hoverable SideNav Buttons</h1>
+      <p>Hover Over The Buttons On the Left Side Navigation To Open.</p>
+    </div>
+  </body>
+</html>

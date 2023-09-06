@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 7</title>
+  </head>
+  <style>
+    body {
+      font-weight: bold;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: x-large;
+      display: flex;
+      background-color: #f67280;
+    }
+    .second {
+      padding-top: 55px;
+      margin-left: 30%;
+    }
+    .right {
+      padding-right: 100px;
+      padding-top: 45px;
+    }
+    .second,
+    .right {
+      padding-left: 55px;
+      padding-bottom: 45px;
+      margin-top: 80px;
+      background-color: #c06c84;
+    }
+    #register-btn {
+      text-align: center;
+      padding-left: 77px;
+      padding-right: 77px;
+      font-size: x-large;
+    }
+    #register-btn:hover {
+      background-color: black;
+      color: white;
+    }
+    .box {
+      height: 25px;
+    }
+  </style>
+  <body>
+    <!-- <div class="first"> -->
+    <div class="second">
+      <form action="">
+        <label for="name">Name:</label>
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <br />
+        <label for="password">Password:</label>
+        <br />
+        <br />
+        <label for="phonenumber">Phone Number:</label>
+        <br />
+        <br />
+        <label for="gender">Gender:</label>
+        <br />
+        <br />
+        <label for="language">Language:</label>
+        <br />
+        <br />
+        <label for="code">Zip Code:</label>
+        <br />
+        <br />
+        <label for="about">About:</label>
+        <br />
+        <br />
+      </form>
+    </div>
+    <div class="right">
+      <input class="box" type="text" id="name" placeholder="your name" />
+      <br />
+      <br />
+      <input class="box" type="email" id="email" placeholder="your email" />
+      <br />
+      <br />
+      <input class="box" type="password" id="password" />
+      <br />
+      <br />
+      <input class="box" type="tel" id="phonenumber" />
+      <br />
+      <br />
+      Male:<input type="radio" id="gender" /> Female:<input
+        type="radio"
+        id="gender"
+      />
+      Other:<input type="radio" id="gender" />
+      <br />
+      <br />
+      <select class="box" id="language">
+        <option>Select language</option>
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+      </select>
+      <br />
+      <br />
+      <input class="box" type="text" id="code" />
+      <br />
+      <br />
+      <textarea
+        id="about"
+        cols="30"
+        rows="4"
+        placeholder="Wrtie about yourself..."
+      ></textarea
+      ><br />
+      <br />
+      <input type="button" value="Register" id="register-btn" />
+    </div>
+  </body>
+</html>

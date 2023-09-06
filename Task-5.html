@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <style>
+    form {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    form {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2,
+    h4 {
+      color: mediumseagreen;
+    }
+    table {
+      border-collapse: collapse;
+      border: 1px solid black;
+    }
+    .register-btn {
+      width: 417px;
+      background-color: mediumseagreen;
+      color: white;
+      font-weight: bolder;
+    }
+    #para2 {
+      text-align: right;
+    }
+    #heading {
+      text-align: center;
+      font-weight: bolder;
+    }
+  </style>
+  <body>
+    <h2>My HTML TASK 5 -Registration Form</h2>
+    <h4>Completed by Divyanshu Singh</h4>
+    <form action="">
+      <table border="1">
+        <tr>
+          <td id="heading"><label for="firstname">First Name</label></td>
+          <td><input type="text" id="firstname" /></td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="lastname">Last Name</label></td>
+          <td><input type="text" id="lastname" /></td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="email">Email</label></td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="password">Password</label></td>
+          <td><input type="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td id="heading">
+            <label for="repassword">Re-enter Password</label>
+          </td>
+          <td><input type="password" id="repassword" /></td>
+        </tr>
+        <tr>
+          <td rowspan="2" id="heading"><label for="gender">Gender</label></td>
+          <td><input type="radio" id="gender" />Male</td>
+        </tr>
+        <tr>
+          <td><input type="radio" id="gender" />Female</td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="age">Age</label></td>
+          <td><input type="number" id="age" /></td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="number">Phone Number</label></td>
+          <td><input type="tel" id="number" /></td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="address">Address</label></td>
+          <td><textarea id="address" cols="35" rows="10"></textarea></td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="state">State</label></td>
+          <td><input type="text" id="state" /></td>
+        </tr>
+        <tr>
+          <td id="heading"><label for="country">Country</label></td>
+          <td>
+            <select name="" id="country">
+              <option>Choose your country</option>
+              <option value="India">India</option>
+              <option value="Sri Lanka">Sri Lanka</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="China">China</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td id="heading">
+            <label for="languages">Languages Known</label>
+          </td>
+          <td>
+            <input type="checkbox" name="" id="languages" />English
+            <input type="checkbox" name="" id="languages" />Kannada
+            <input type="checkbox" name="" id="languages" />Hindi
+            <input type="checkbox" name="" id="languages" />Telugu
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" name="" id="" />
+            <spam>Hereby I declare all the given details are true.</spam>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p id="para2">
+              Log in to <a href="https://ethnus.com/">Ethnus</a> webiste
+            </p>
+          </td>
+        </tr>
+      </table>
+      <input class="register-btn" type="submit" value="Register" />
+    </form>
+  </body>
+</html>

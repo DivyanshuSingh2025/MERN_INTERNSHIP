@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 2</title>
+  </head>
+  <style>
+    .left {
+      padding-right: 100px;
+    }
+    .right {
+      padding-top: 100px;
+    }
+    body {
+      display: flex;
+    }
+    h2 {
+      text-align: center;
+      color: brown;
+    }
+    #Vertical {
+      font-size: larger;
+      border: 2px solid black;
+      border-style: dashed;
+      display: block;
+      background-color: mediumseagreen;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 300px;
+    }
+    #Horizontal {
+      font-size: larger;
+      border: 2px solid black;
+      border-style: dashed;
+      display: flex;
+      background-color: mediumseagreen;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 400px;
+    }
+    li {
+      padding: 10px;
+    }
+    li a {
+      text-decoration: none;
+    }
+
+    li:hover {
+      background-color: white;
+    }
+  </style>
+  <body>
+    <div class="left">
+      <h2>Vertical Navigation Bar</h2>
+      <ul id="Vertical">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+      </ul>
+      <br />
+    </div>
+    <div class="right">
+      <h2>Horizontal Navigation Bar</h2>
+      <ul id="Horizontal">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">Bootstrap</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

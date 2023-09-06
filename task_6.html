@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 6</title>
+  </head>
+  <style>
+    img {
+      height: 150px;
+      padding-bottom: 1.5rem;
+    }
+    body {
+      width: 45%;
+      text-align: center;
+    }
+    .labels {
+      display: block;
+      text-align: left;
+    }
+    input {
+      width: 100%;
+    }
+    .login-btn {
+      color: white;
+      background-color: MediumSeaGreen;
+    }
+
+    .cancel-btn {
+      color: white;
+      background-color: brown;
+      width: 60px;
+      display: block;
+      text-align: left;
+    }
+
+    span {
+      display: block;
+      text-align: right;
+    }
+    a {
+      color: mediumseagreen;
+    }
+  </style>
+  <body>
+    <img src="profile-img.jpg" alt="profile-img" />
+    <form action="">
+      <label for="username" class="labels">Username</label>
+      <input type="text" id="username" />
+      <br />
+      <br />
+      <label for="password" class="labels">Password</label>
+      <input type="password" id="password" />
+      <br />
+      <br />
+      <input class="login-btn" type="submit" value="Login" />
+      <br />
+      <br />
+      <br />
+    </form>
+    <footer>
+      <input type="submit" value="Cancel" class="cancel-btn" />
+      <span><a href="#">Forgot password?</a></span>
+    </footer>
+  </body>
+</html>
